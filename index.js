@@ -13,8 +13,8 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var newLine = [];
   if(katzDeliLine.length > 0){
+    var newLine = [];
     for(let i = 0; i < katzDeliLine.length; i++) {
       newLine.push(`${i + 1}. ${katzDeliLine[i]}`)
     }
